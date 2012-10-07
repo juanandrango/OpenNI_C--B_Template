@@ -1,0 +1,4 @@
+# Ignore all bin directories
+bin
+# Ignore all files ending with ~
+*~ 

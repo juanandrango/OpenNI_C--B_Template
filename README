@@ -1,0 +1,14 @@
+OpenNI Project Code::Blocks Template
+
+Assuming pkg-config knows where opencv pakages are: 
+
+1.For OpenCV add `pkg-config --cflags opencv` to Build Options->Compiler Setting->Other Options
+  Add `pkg-config --libs opencv` to Build Options->Linker Settings->Other Linker Options.
+
+2.For OpenNI add /usr/lib/libOpenNI.so to Build Options->Linker Setting->Link Libraries
+  Add /usr/include/ni to Build Options->Search Directories->Compiler
+  Add /usr/include/nite to Build Options->Search Directories->Compiler if NITE is used in the project.
+
+Do this for both Debug and Release.
+
+Done
